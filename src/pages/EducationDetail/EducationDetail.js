@@ -67,10 +67,10 @@ function EducationDetail() {
                                             Your browser does not support the video tag.
                                         </video>
                                     ) : (
-                                        <img 
-                                            src={process.env.PUBLIC_URL + '/' + media} 
-                                            alt={`gallery-${index}`} 
-                                            style={{ width: '100%', maxWidth: '800px', height: 'auto', objectFit: 'contain', display: 'block', margin: '0 auto' }}
+                                        <img
+                                        src={`/${media}`}
+                                        alt={`gallery-${index}`}
+                                        style={{ width: '100%', maxWidth: '800px', height: 'auto', objectFit: 'contain', display: 'block', margin: '0 auto' }}
                                         />
                                     )}
                                 </div>
