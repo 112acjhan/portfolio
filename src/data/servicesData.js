@@ -7,6 +7,68 @@ import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, F
  
 
 export const servicesData = [
+    {
+        id: 1,
+        title: 'Machine Learning',
+        icon: <AiFillAudio />
+    },
+    {
+        id: 2,
+        title: 'AI & Deep Learning',
+        icon: <FaChalkboardTeacher />
+    },
+    {
+        id: 3,
+        title: 'Data Analysis',
+        icon: <BsClipboardData />
+    },
+    {
+        id: 4,
+        title: 'Web Development',
+        icon: <BsCodeSlash />
+    },
+    {
+        id: 5,
+        title: 'C++ / Java Projects',
+        icon: <FaRegNewspaper />
+    },
+    {
+        id: 6,
+        title: 'Technical Writing / Blogging',
+        icon: <FaRegNewspaper />
+    },
+    {
+        id: 7,
+        title: 'Video Editing',
+        icon: <FaVideo />
+    },
+    {
+        id: 8,
+        title: 'Photography',
+        icon: <FaCameraRetro />
+    },
+    {
+        id: 9,
+        title: 'Content Writing',
+        icon: <BiPencil /> 
+    },
+    {
+         id: 10,
+         title: 'Internet Research',
+         icon: <FaInternetExplorer />
+ },
+ {
+         id: 11,
+         title: 'Pinterest Virtual Assistant',
+         icon: <FaPinterest />
+     }, 
+     {
+        id: 12,
+        title: 'Ebook Writing',
+        icon: <FaTabletAlt />
+    }
+];
+/*
     // {
     //     id: 1,
     //     title: 'Marketing',
@@ -74,7 +136,7 @@ export const servicesData = [
         icon: <FaRegNewspaper />
     },
 
-]
+]*/
 
 // Uncomment your required service.
 // Couldn't find the required services? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new

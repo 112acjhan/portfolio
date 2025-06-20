@@ -1,13 +1,40 @@
- export const skillsData = [
-    'HTML',
-    'Fastify',
-    'Blender',
-    'Figma',
-    'Javascript',
+export const skillsData = [
+    // Programming Languages
+    'C',
+    'C++',
+    'Java',
+    'Python',
     'CSS',
-    'React',
-    'Django',
+    'HTML',
+    'Javascript',
+    
+
+    // Database
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB',
+
+    // Programming Tools
+    'GIT',
+    'Unity',
+    'Pytorch',
+    
+    // Soft Skills (可视化时可能需要手动调整, 代码内暂不显示)
+
+    // Digital Design Tools
+    'Photoshop',
+    'Canva',
+    'Figma',
+    'Adobe XD',
+    'Adobe Audition',
+
+    // Productivity Tools
+    'Microsoft Office',
+    'Matlab',
+
+    // Languages (同 Soft Skills 说明)
 ]
+
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
@@ -85,7 +112,7 @@
     Graphql
     Lightroom
     MaterialUI
-    Nginx
+    Nginx   
     Numpy
     OpenCV
     Pytorch

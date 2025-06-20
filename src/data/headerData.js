@@ -1,9 +1,9 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume2 from '../assets/pdf/resume2.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
+    name: 'Chooi Jun Xiang',
+    title: "Aspiring AI Engineer",
+    desciption:"Passionate about building intelligent systems that bridge research and real-world applications. Currently pursuing a Bachelor's degree in AI, focusing on machine learning, deep learning, and data-driven problem solving. Eager to contribute to innovative AI solutions and advance my expertise in the field.",
+    image: '/photo_2025-06-14_16-13-09.jpg',
+    resumePdf: resume2
 }

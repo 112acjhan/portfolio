@@ -5,7 +5,7 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
+    FaFacebook,
     FaLinkedinIn,
     FaGithub,
     FaYoutube,
@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Chooi jun xiang'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='Chooialex121@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -313,16 +313,17 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
+                            {socialsData.facebook && (
+    <a
+        href={socialsData.facebook}
+        target='_blank'
+        rel='noreferrer'
+        className={classes.socialIcon}
+    >
+        <FaFacebook aria-label='Facebook' />
+    </a>
+)}
+
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}

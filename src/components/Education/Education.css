@@ -34,12 +34,13 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
     transition: background-color 200ms ease-in-out;
+    min-height: 140px; /* ✅ 替换掉原来的 height */
 }
+
 
 .educard-img {
     border-radius: 50%;
@@ -175,4 +176,19 @@
 
 @media only screen and (device-width: 768px) {
 
+}
+
+.education-details > p {
+    margin: 0.3rem 0;
+    font-family: var(--primaryFont);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.expand-btn {
+    transition: all 0.3s ease;
+}
+
+.expand-btn:hover {
+    transform: translateY(-2px);
 }

@@ -9,11 +9,13 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
+    FaFacebook,
     FaTwitter,
     FaLinkedin,
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaInstagram,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -127,6 +129,34 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {socialsData.facebook && (
+    <a
+        href={socialsData.facebook}
+        target='_blank'
+        rel='noreferrer'
+    >
+        <FaFacebook
+            className='landing--social'
+            style={{ color: theme.secondary }}
+            aria-label='Facebook'
+        />
+    </a>
+)}
+
+{socialsData.instagram && (
+    <a
+        href={socialsData.instagram}
+        target='_blank'
+        rel='noreferrer'
+    >
+        <FaInstagram
+            className='landing--social'
+            style={{ color: theme.secondary }}
+            aria-label='Instagram'
+        />
+    </a>
+)}
+
                         {socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
