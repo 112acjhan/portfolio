@@ -1,55 +1,52 @@
 /* eslint-disable */
-import girl1 from '../assets/svg/testimonials/girl1.svg'
-import girl2 from '../assets/svg/testimonials/girl2.svg'
-import girl3 from '../assets/svg/testimonials/girl3.svg'
-import boy1 from '../assets/svg/testimonials/boy1.svg'
-import boy2 from '../assets/svg/testimonials/boy2.svg'
-import boy3 from '../assets/svg/testimonials/boy3.svg'
-
-
+import einstein from '../assets/svg/testimonials/boy1.svg'
+import jobs from '../assets/svg/testimonials/boy2.svg'
+import mandela from '../assets/svg/testimonials/boy3.svg'
+import marieCurie from '../assets/svg/testimonials/girl1.svg'
+import tesla from '../assets/svg/testimonials/boy1.svg'
+import ai from '../assets/svg/testimonials/girl2.svg'
 
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
-        image: boy2
+        name: 'Albert Einstein',
+        title: 'Theoretical Physicist',
+        text: "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+        image: 'Albert_Einstein_1947.jpg'
     },
     {
         id: 2,
-        name: 'Monica Geller',
-        title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-        image: girl2
+        name: 'Steve Jobs',
+        title: 'Co-founder of Apple',
+        text: "The people who are crazy enough to think they can change the world are the ones who do.",
+        image: 'Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg'
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
-        text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
-        image: girl1
+        name: 'Nelson Mandela',
+        title: 'Former President of South Africa',
+        text: "Education is the most powerful weapon which you can use to change the world.",
+        image: 'Nelson-Mandela.webp'
     },
     {
         id: 4,
-        name: 'Joey Tribbiani',
-        title: 'Actor',
-        text: "Making my portfolio with this helped me get my role as 'Dr. Drake Ramoray' in 'Days Of Our Lives'. You guys are the best !",
-        image: boy1
+        name: 'Marie Curie',
+        title: 'Physicist & Chemist',
+        text: "Nothing in life is to be feared; it is only to be understood.",
+        image: 'Marie-Curie-Paris-laboratory.webp'
     },
     {
         id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
+        name: 'Nikola Tesla',
+        title: 'Inventor & Engineer',
+        text: "The present is theirs; the future, for which I really worked, is mine.",
+        image: 'Tesla_circa_1890.jpeg'
     },
     {
         id: 6,
-        name: 'Ross Geller',
-        title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
-        image: boy3
+        name: 'Alan Turing',
+        title: 'Father of AI',
+        text: "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+        image: 'Alan_Turing_Aged_16.jpg'
     }
 ]
-

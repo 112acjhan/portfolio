@@ -54,6 +54,16 @@ export const servicesData = [
     },
     {
          id: 10,
+         title: 'Data Entry', 
+         icon: <BsClipboardData />
+     },
+     {
+         id: 11,
+         title: 'Audio Transcription',
+         icon: <AiFillAudio />
+     },
+    /*{
+         id: 10,
          title: 'Internet Research',
          icon: <FaInternetExplorer />
  },
@@ -61,7 +71,7 @@ export const servicesData = [
          id: 11,
          title: 'Pinterest Virtual Assistant',
          icon: <FaPinterest />
-     }, 
+     },*/ 
      {
         id: 12,
         title: 'Ebook Writing',

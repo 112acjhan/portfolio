@@ -1,0 +1,59 @@
+.journey-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.journey-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.journey-block {
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.journey-block-title {
+  font-size: 1.5rem;
+  color: #ff8800;
+  margin-bottom: 0.5rem;
+}
+.journey-block-desc {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+.journey-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  min-height: 60px;
+}
+.journey-gallery-card {
+  background: #fff7ed;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 136, 0, 0.10);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  min-height: 80px;
+  max-width: 200px;
+  max-height: 160px;
+}
+.journey-gallery-card img {
+  max-width: 180px;
+  max-height: 140px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.journey-gallery-placeholder {
+  color: #ff8800;
+  font-size: 1rem;
+  opacity: 0.7;
+  padding: 1.5rem 0;
+} 

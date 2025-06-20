@@ -192,3 +192,41 @@
 .expand-btn:hover {
     transform: translateY(-2px);
 }
+.education-card-with-image {
+  display: flex;
+  flex-direction: row; /* 图片在右边 */
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.education-card-image {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-card-image img {
+  width: 100%;
+  max-height: 220px; /* ✅ 图片不会太大 */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.education-card-content {
+  flex: 0.6;
+}
+
+.education-thumb {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
