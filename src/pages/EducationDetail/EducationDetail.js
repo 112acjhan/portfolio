@@ -63,7 +63,7 @@ function EducationDetail() {
                                 <div className="gallery-card" key={index} style={{ background: theme.primary30 }}>
                                     {media.endsWith('.mp4') ? (
                                         <video controls width="100%" style={{ borderRadius: '10px', maxHeight: '180px', objectFit: 'cover' }}>
-                                            <source src={process.env.PUBLIC_URL + '/' + media} type="video/mp4" />
+                                            <source src={`/${media}`} type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     ) : (
